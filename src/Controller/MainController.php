@@ -15,4 +15,12 @@ class MainController extends AbstractController
         echo "coucou";
         die();
     }
+    /**
+     * @Route("/test", name="main_test")
+     */
+    public function test()
+    {
+        echo "Test it";
+        die();
+    }
 }
